@@ -17,7 +17,10 @@ coverage/
 .oxlintrc.contract-*.json
 oxlint-contract-*.ts
 .humanize/
-tmp/
+# Scratch stays ignored; the local Cordis tutorial under tmp/cordis-tutorial is tracked.
+tmp/*
+!tmp/cordis-tutorial/
+!tmp/cordis-tutorial/**
 .claude/commands/
 .claude/launch.json
 .claude/settings.json
